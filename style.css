@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Outfit:wght@300;400;600&family=Roboto+Slab&family=Tinos:ital@1&display=swap");
+.attribution {
+  font-size: 14px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  margin: auto;
+  padding-top: 30px;
+  color: aliceblue;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+body {
+  background-color: hsl(217, 54%, 11%);
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100vh;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(216, 50%, 16%);
+  color: hsl(0, 0%, 100%);
+  text-align: center;
+  width: 280px;
+  height: 435px;
+  border-radius: 10px;
+  margin: auto;
+  margin-top: 30px;
+}
+.image {
+  width: 260px;
+  height: 250px;
+  margin-top: 1rem;
+  border-radius: 7px;
+}
+.head {
+  margin-top: 1em;
+  font-size: 15px;
+  margin-left: 0;
+}
+.test {
+  margin-top: 0;
+  max-width: 200px;
+  color: hsl(215, 51%, 70%);
+}
+h4 {
+  margin-top: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.img {
+  text-align: center;
+  align-items: center;
+  margin-right: 10px;
+  border: 1px solid hsl(0, 0%, 100%);
+  border-radius: 50%;
+}
+.p {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: space-between;
+}
+.radius {
+  border-bottom: 0.01px solid hsl(215, 51%, 70%);
+  font-size: 12px;
+  display: flex;
+  gap: 75px;
+}
+.two {
+  color: hsl(178, 100%, 50%);
+  gap: 5px;
+}
+.three {
+  color: hsl(215, 51%, 70%);
+  gap: 5px;
+}
